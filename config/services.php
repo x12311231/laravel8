@@ -36,4 +36,10 @@ return [
         'redirect' => 'http://localhost/auth/callback',
     ],
 
+    'weixin' => [
+        'client_id' => env('WEIXIN_CLIENT_ID'),
+        'client_secret' => env('WEIXIN_CLIENT_SECRET'),
+        'redirect' => env('WEIXIN_REDIRECT_URI')
+    ],
+
 ];

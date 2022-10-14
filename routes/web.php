@@ -28,3 +28,14 @@ Route::get('/auth/callback', function () {
     // $user->token
     var_export($user);
 });
+
+Route::get('/auth/weixin/redirect', function () {
+    return Socialite::driver('weixin')->redirect();
+});
+
+Route::get('/auth/weixin', function () {
+    $user = Socialite::driver('weixin')->user();
+
+    // $user->token
+    var_export($user);
+});

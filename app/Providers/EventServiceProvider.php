@@ -18,6 +18,11 @@ class EventServiceProvider extends ServiceProvider
         Registered::class => [
             SendEmailVerificationNotification::class,
         ],
+//        \SocialiteProviders\Manager\SocialiteWasCalled::class => [
+//            // ... other providers
+//            \SocialiteProviders\Weixin\WeixinExtendSocialite::class.'@handle',
+//            \SocialiteProviders\QQ\QqExtendSocialite::class.'@handle',
+//        ],
     ];
 
     /**
@@ -29,4 +34,8 @@ class EventServiceProvider extends ServiceProvider
     {
         //
     }
+//    public function shouldDiscoverEvents()
+//    {
+//        return true;
+//    }
 }
