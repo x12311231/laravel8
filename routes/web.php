@@ -39,3 +39,16 @@ Route::get('/auth/weixin', function () {
     // $user->token
     var_export($user);
 });
+
+Route::get('/auth/huawei/redirect', function () {
+    return Socialite::driver('huawei')->redirect();
+});
+
+Route::get('/auth/huawei', function () {
+    $user = Socialite::driver('huawei')->user();
+
+    // $user->token
+//    var_export($user);
+    echo '---';
+    return json_encode($user);
+});

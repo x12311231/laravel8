@@ -18,11 +18,12 @@ class EventServiceProvider extends ServiceProvider
         Registered::class => [
             SendEmailVerificationNotification::class,
         ],
-//        \SocialiteProviders\Manager\SocialiteWasCalled::class => [
-//            // ... other providers
-//            \SocialiteProviders\Weixin\WeixinExtendSocialite::class.'@handle',
-//            \SocialiteProviders\QQ\QqExtendSocialite::class.'@handle',
-//        ],
+        \SocialiteProviders\Manager\SocialiteWasCalled::class => [
+            // ... other providers
+            \SocialiteProviders\Weixin\WeixinExtendSocialite::class.'@handle',
+            \SocialiteProviders\QQ\QqExtendSocialite::class.'@handle',
+            \X12311231LaravelSocialite\huawei\HuaweiExtendSocialite::class.'@handle',
+        ],
     ];
 
     /**

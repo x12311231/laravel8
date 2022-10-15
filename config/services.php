@@ -42,4 +42,10 @@ return [
         'redirect' => env('WEIXIN_REDIRECT_URI')
     ],
 
+    'huawei' => [
+        'client_id' => env('HUAWEI_CLIENT_ID'),
+        'client_secret' => env('HUAWEI_CLIENT_SECRET'),
+        'redirect' => env('HUAWEI_REDIRECT_URI')
+    ],
+
 ];

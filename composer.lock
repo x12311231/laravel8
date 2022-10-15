@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d086f4d9f1628f29ce4aed5d3db5a300",
+    "content-hash": "fa19447bdebc64434da2ed9efb2f0f34",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5721,6 +5721,48 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "x12311231-laravel-socialite/huawei",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/x12311231/x12311231-laravel-socialite-huawei.git",
+                "reference": "c3a00bddbc636c06fba166a4a9448be0e8f59196"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/x12311231/x12311231-laravel-socialite-huawei/zipball/c3a00bddbc636c06fba166a4a9448be0e8f59196",
+                "reference": "c3a00bddbc636c06fba166a4a9448be0e8f59196",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.2 || ^8.0",
+                "socialiteproviders/manager": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "X12311231LaravelSocialite\\huawei\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "x12311231",
+                    "email": "yinew8@qq.com"
+                }
+            ],
+            "description": "Huawei OAuth2 Provider for Laravel Socialite",
+            "support": {
+                "issues": "https://github.com/x12311231/x12311231-laravel-socialite-huawei/issues",
+                "source": "https://github.com/x12311231/x12311231-laravel-socialite-huawei/tree/4.0.0"
+            },
+            "time": "2022-10-14T08:24:26+00:00"
         }
     ],
     "packages-dev": [

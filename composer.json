@@ -2,7 +2,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
@@ -13,7 +16,8 @@
         "laravel/socialite": "^5.5",
         "laravel/tinker": "^2.5",
         "socialiteproviders/qq": "^4.2",
-        "socialiteproviders/weixin": "^4.1"
+        "socialiteproviders/weixin": "^4.1",
+        "x12311231-laravel-socialite/huawei": "^4.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -62,4 +66,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+
 }
