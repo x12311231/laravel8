@@ -52,3 +52,7 @@ Route::get('/auth/huawei', function () {
     echo '---';
     return json_encode($user);
 });
+
+Route::get('/secret', function() {
+    return 'secret';
+});
